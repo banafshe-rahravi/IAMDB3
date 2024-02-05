@@ -122,7 +122,7 @@ module.exports = {
         '320':'320px',
         '75':'75px',
         '227':'227px',
-        '1200':'1200px'
+        '1200':'1200px',
       },
     
       fontSize: {
@@ -143,6 +143,9 @@ module.exports = {
         '96': '96px',
         '40':'40px',
       },
+      dropShadow: {
+        '3xl': '0px 6px 12px 0px rgba(27, 23, 23, 1)',
+      },
      
       backgroundImage:{
         'pattern': "url('@/assets/images/pattern.svg')",
@@ -155,15 +158,13 @@ module.exports = {
         '150': '150px',
         '56': '56px',
         '112.5':'112.5px',
-        '46.88':'46.88px'
+        '46.88':'46.88px',
       },
       gap: {
         '60': '60px',
         '18':'18px'
-      }
-
-    
+      },
     },
-  },
+  }, 
   plugins: [require("daisyui"),('tailwind-aspect-ratio')],
   };

@@ -301,3 +301,67 @@ rounded-all ls3:w-[227px] ls3:h-[61px] ml:w-[177px] ml:h-11
 "vote_average": 8.44,
 "vote_count": 27950
 }
+
+
+
+
+{  
+  "poster_path": "/IfB9hy4JH1eH6HEfIgIGORXi5h.jpg",  
+  "adult": false,  
+  "overview": "Jack Reacher must uncover the truth behind a major government conspiracy in order to clear his name. On the run as a fugitive from the law, Reacher uncovers a potential secret from his past that could change his life forever.",  
+  "release_date": "2016-10-19",  
+  "genre_ids": [  
+    53,  
+    28,  
+    80,  
+    18,  
+    9648  
+  ],  
+  "id": 343611,  
+  "original_title": "Jack Reacher: Never Go Back",  
+  "original_language": "en",  
+  "title": "Jack Reacher: Never Go Back",  
+  "backdrop_path": "/4ynQYtSEuU5hyipcGkfD6ncwtwz.jpg",  
+  "popularity": 26.818468,  
+  "vote_count": 201,  
+  "video": false,  
+  "vote_average": 4.19  
+}
+
+
+
+
+<!-- <template>
+  <div class="hidden lg:block mt-9 relative ">
+  <div class="flex">
+      <circle-progress
+    :is="component"
+    :progress="progress"
+    :percent="ratings*10"
+    color="rgba(238, 235, 221, 0.9)"
+    :determinate="determinate"
+    empty-color="rgba(238, 235, 221, 0.4)"
+    :border-width="6"
+    :border-bg-width="6"
+    :size="80"
+    
+    animation="bounce 700 1000"
+    :is-gradient="true"
+    :gradient="{
+      angle: 79,
+      startColor: 'rgba(206, 18, 18, 1)',
+      stopColor: 'rgba(206, 18, 18, 1)'
+  }"
+    
+    :loading="loading"
+    :no-data="noData"
+  />
+  </div>
+  </div>
+</template>
+<script>
+
+import "vue3-circle-progress/dist/circle-progress.css";
+import CircleProgress from "vue3-circle-progress";
+
+</script> -->
